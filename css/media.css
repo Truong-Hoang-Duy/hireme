@@ -1,0 +1,455 @@
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: "Space Grotesk", sans-serif;
+}
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+  /* header */
+  .list,
+  .started,
+  .log {
+    font-size: var(--size-base);
+  }
+  .list {
+    gap: 62px;
+  }
+  .big-header-text {
+    font-size: var(--size-6xl);
+  }
+  .big-bottom-text {
+    font-size: var(--size-xl);
+  }
+  .employers,
+  .candidates {
+    font-size: var(--size-lg);
+  }
+  /* channel-1 */
+  .frame {
+    width: 600px;
+  }
+  .profile-pic {
+    margin-left: 5px;
+  }
+  .list-child {
+    gap: 2px;
+    font-size: var(--size-sm);
+  }
+  .application {
+    padding: 11px 5px;
+  }
+  .header-text {
+    font-size: var(--size-4xl);
+  }
+  .bottom-text {
+    font-size: var(--size-xl);
+  }
+  /* channel-2 */
+  .candidate-profile-container {
+    width: 720px;
+  }
+  .candidate-profile {
+    width: 520px;
+  }
+  .cover-1 {
+    width: 443px;
+  }
+  .cover-2 {
+    width: 390px;
+  }
+  .candidate-child-list {
+    font-size: var(--size-sm);
+  }
+  /* channel-3 */
+  .pic-container img {
+    width: 600px;
+  }
+  /* channel-4 */
+  .pic-container-2 img {
+    width: 575px;
+  }
+  /* intro */
+  .pic-container-3 img {
+    width: 600px;
+  }
+  /* feature */
+  .feature-board {
+    height: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+  }
+  .feature-container {
+    width: 100%;
+  }
+  /* benefit intro */
+  .intro-benefit {
+    flex-direction: column;
+  }
+  .header-text-4 {
+    font-size: var(--size-6xl);
+    margin-bottom: 50px;
+  }
+  .benefit-header-text {
+    font-size: var(--size-3xl);
+  }
+  .benefit-bottom-text {
+    font-size: var(--size-xl);
+  }
+  .end-header-text {
+    font-size: var(--size-6xl);
+  }
+  .end-bottom-text {
+    font-size: var(--size-3xl);
+  }
+  .end-started-button {
+    font-size: var(--size-xl);
+  }
+  /* the-end */
+  .footer-1,
+  .box-7 {
+    height: 800px;
+  }
+  .footer-1 {
+    margin-top: 70px;
+  }
+  /* pricing-page */
+  .pricing-board {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .box-9,
+  .pricing-page {
+    height: 2500px;
+  }
+  .candidate-pricing-board {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .box-10,
+  .candidate-price-pack {
+    height: 1950px;
+  }
+}
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+  /* header */
+  .header-left img {
+    width: var(--size-9xl);
+  }
+  .list,
+  .started,
+  .log {
+    display: none;
+  }
+  .menu-bar {
+    display: block;
+  }
+  .list {
+    padding: 30px;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .big-header-text {
+    font-size: var(--size-5xl);
+  }
+  .big-bottom-text {
+    font-size: var(--size-lg);
+  }
+  .employers,
+  .candidates {
+    font-size: var(--size-sm);
+  }
+  /* channel */
+  .channel-1,
+  .channel-2,
+  .channel-3,
+  .channel-4 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .frame-container {
+    width: 100%;
+  }
+  .frame {
+    width: 100%;
+  }
+  .profile-pic {
+    margin-left: 51px;
+    margin-right: 15px;
+  }
+  .frame-button-container {
+    margin-left: 43px;
+  }
+  .application {
+    padding: 11px 24px;
+  }
+  .header-text {
+    font-size: var(--size-5xl);
+  }
+  .bottom-text {
+    font-size: var(--size-2xl);
+  }
+  .candidate-profile {
+    width: 100%;
+  }
+  .cover-1 {
+    width: 670px;
+  }
+  .cover-2 {
+    width: 620px;
+  }
+  .channel-3 {
+    gap: 30px;
+  }
+  /* intro */
+  .pic-container-3 img {
+    width: 450px;
+  }
+  .header-text-3 {
+    font-size: var(--size-3xl);
+  }
+  .bottom-text-3 {
+    font-size: var(--size-lg);
+  }
+  .feature-logo {
+    font-size: var(--size-5xl);
+  }
+  /* benefit intro */
+  .intro-benefit {
+    height: 1800px;
+  }
+  .header-text-4 {
+    margin-bottom: 150px;
+  }
+  .benefit-board {
+    margin-bottom: 600px;
+  }
+  .benefit-board {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .benefit-container {
+    width: 100%;
+  }
+  /* the-end */
+  .credit-container-1,
+  .credit-container-4 {
+    margin: 0;
+  }
+  /* pricing-page */
+  .box-10,
+  .candidate-price-pack {
+    height: 2025px;
+  }
+}
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+  /* header */
+  .header-left img {
+    width: var(--size-8xl);
+  }
+  .button-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .employers,
+  .candidates {
+    width: 100%;
+  }
+  /* channel */
+  .frame-button-container {
+    flex-direction: column;
+    margin-left: 13px;
+  }
+  .application {
+    padding: 11px 6px;
+  }
+  .banner {
+    width: 100%;
+    height: 34px;
+  }
+  .candidate-profile-container {
+    width: 100%;
+  }
+  .cover-1 {
+    width: 580px;
+  }
+  .cover-2 {
+    width: 540px;
+  }
+  .pic-container img {
+    width: 500px;
+  }
+  .pic-container-2 img {
+    width: 490px;
+  }
+  .pic-container-3 img {
+    width: 450px;
+  }
+  .intro {
+    flex-direction: column;
+  }
+  .text-container-4 {
+    align-items: flex-start;
+    justify-content: flex;
+  }
+  .header-text-3 {
+    font-size: var(--size-4xl);
+  }
+  .bottom-text-3 {
+    font-size: var(--size-2xl);
+  }
+  .feature-logo {
+    font-size: var(--size-4xl);
+  }
+  .feature-underline {
+    width: 75px;
+    height: 15px;
+  }
+  .header-text-4 {
+    font-size: var(--size-5xl);
+  }
+  /* the-end */
+  .footer-1,
+  .box-7 {
+    height: 1200px;
+  }
+  /* pricing-page */
+  .for-employers {
+    font-size: var(--size-xl);
+  }
+  .pricing-text {
+    font-size: var(--size-4xl);
+    letter-spacing: -3px;
+  }
+  .name-pack {
+    font-size: var(--size-2xl);
+  }
+  .price {
+    font-size: var(--size-5xl);
+  }
+}
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+  /* header */
+  .big-header-text {
+    font-size: var(--size-4xl);
+  }
+  .big-bottom-text {
+    font-size: var(--size-sm);
+  }
+  .candidates,
+  .employers {
+    font-size: var(--size-sm);
+  }
+  /* channel */
+  .cover-1 {
+    width: 425px;
+  }
+  .cover-2 {
+    width: 395px;
+  }
+  .candidates-list {
+    gap: 8px;
+  }
+  .candidate-child-list {
+    gap: 5px;
+    font-size: var(--size-xs);
+  }
+  .header-text {
+    font-size: var(--size-4xl);
+  }
+  .bottom-text {
+    font-size: var(--size-xl);
+  }
+  .pic-container img {
+    width: 450px;
+  }
+  .pic-container-2 img {
+    width: 440px;
+  }
+  .bottom-text-2 {
+    display: inline-block;
+    width: 570px;
+  }
+  .logo-text {
+    font-size: 39px;
+  }
+  .button-logo {
+    width: 240px;
+    font-size: 39px;
+  }
+  .text-container {
+    width: 100%;
+  }
+  .header-text,
+  .bottom-text {
+    width: 100%;
+    display: inline-block;
+  }
+  .candidate-button {
+    font-size: var(--size-sm);
+  }
+  /* intro */
+  .header-text-3 {
+    font-size: var(--size-3xl);
+  }
+  .bottom-text-3 {
+    font-size: var(--size-xl);
+  }
+  .feature-container {
+    width: 450px;
+  }
+  .feature-pic-container img {
+    width: 400px;
+  }
+  .header-text-4 {
+    margin-top: 50px;
+    font-size: var(--size-5xl);
+    text-align: center;
+  }
+  /* the-end */
+  .footer-1,
+  .box-7 {
+    height: 1800px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    width: 100%;
+  }
+  .header-text {
+    font-size: var(--size-3xl);
+  }
+  .bottom-text {
+    font-size: var(--size-lg);
+  }
+  /* the-end */
+}
